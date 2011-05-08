@@ -12,7 +12,6 @@ LicaoApp::Application.routes.draw do
    match '/about',   :to => 'pages#about'
    match '/help',    :to => 'pages#help'
 
-
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
