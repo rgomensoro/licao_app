@@ -3,7 +3,7 @@
 }
 
 body {
-  background: #cff;
+  background: #000055;
 }
 
 header {
@@ -86,8 +86,8 @@ a.signup_button {
   display: block;
   text-align: center;
   width: 150px;
-  color: #aa0000;
-  background: #006400;
+  color: #000000;
+  background: #aaaaff;
   font-size: 150%;
   font-weight: bold;
   padding: 20px;
@@ -113,3 +113,6 @@ footer nav {
   float: none;
 }
 
+.debug_dump {
+  color: #ffffff;	
+}
