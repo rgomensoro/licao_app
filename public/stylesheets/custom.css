@@ -116,7 +116,7 @@ footer nav {
 .debug_dump {
   color: #ffffff;	
 
-
+}
 /* User show page */
 
 table.profile {
@@ -139,5 +139,5 @@ td.sidebar {
 .profile img.gravatar {
   border: 1px solid #999;
   margin-bottom: -15px;
-}
+
 }
