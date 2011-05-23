@@ -6,6 +6,4 @@ module UsersHelper
                                             :gravatar => options)
   end
 
-
-
 end
