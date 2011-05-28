@@ -6,7 +6,7 @@ class UsersController < ApplicationController
 
   def new
     @user = User.new
-    @title = "Sign up"
+    @title = "Cadastre-se"
   end
  
   def create
@@ -16,7 +16,7 @@ class UsersController < ApplicationController
       sign_in @user
       redirect_to @user
     else
-      @title = "Sign up"
+      @title = "Cadastre-se"
       render 'new'
     end
   end
